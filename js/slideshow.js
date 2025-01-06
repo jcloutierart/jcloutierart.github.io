@@ -10,18 +10,6 @@ if(slideshow != null || slideshow != "undefined"){
 
 
 // SLIDESHOW
-/* structure div slideshow
-.slideshowWrapper
-	.slideshow
-		.artworkWrapper
-			.artwork
-			.artwork.isActive
-	.slideshowControls
-		.prevBtn.button
-		.nextBtn.button
-*/
-
-
 // Boutons prev et next
 const slideshowButtons = document.querySelectorAll(".slideshowWrapper .button");
 
@@ -45,12 +33,6 @@ slideshow.addEventListener("mousedown", function(pEvent){
 	dragStartX = pEvent.pageX;
 });
 
-//slideshow.addEventListener("mousemove", function(){
-//	console.log("=== drag mousemove START ===");
-
-//	console.log("=== drag mousemove END ===");
-//});
-
 // Arret du drag
 slideshow.addEventListener("mouseup", function(pEvent){
 	slideshow.classList.remove("draggedElement");
@@ -71,9 +53,6 @@ slideshow.addEventListener("mouseup", function(pEvent){
 
 // FUNCTION: focus on position of element in slideshow
 function fFocusSlideshowItem(pContainerSlide, pContentArraySlide){
-	// pContainerSlide == OBLIGATOIRE - class ou id de slideshow
-	// pContentArraySlide == OBLIGATOIRE - class ou id de element contenant slide (array car entree multiples)
-
 	let initialSlideshowIndex = 0;
 	let initialSlideshowPrevImgWidth = 0;
 	let initialSlideshowPosition = 0;
@@ -111,10 +90,6 @@ function fFocusSlideshowItem(pContainerSlide, pContentArraySlide){
 
 // FUNCTION: change position of element in slideshow
 function fChangeSlideshowItem(pContainerSlide, pContentArraySlide, pDirectionSlide){	
-	// pContainerSlide == OBLIGATOIRE - class ou id de slideshow
-	// pContentArraySlide == OBLIGATOIRE - class ou id de element contenant slide (array car entree multiples)
-	// pDirectionSlide == OBLIGATOIRE - prev ou next
-
 	let slideshowIndex = 0;
 	let slideshowPosition = 0;
 	let slideshowPrevImgWidth = 0;
