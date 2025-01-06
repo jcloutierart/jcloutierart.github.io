@@ -1,3 +1,5 @@
+//console.log("LOAD : slideshow.js");
+
 // Initialize slideshow item position
 const slideshow = document.querySelector(".slideshow");
 const slideshowContent = document.querySelectorAll(".slideshow .artwork");
@@ -8,6 +10,18 @@ if(slideshow != null || slideshow != "undefined"){
 
 
 // SLIDESHOW
+/* structure div slideshow
+.slideshowWrapper
+	.slideshow
+		.artworkWrapper
+			.artwork
+			.artwork.isActive
+	.slideshowControls
+		.prevBtn.button
+		.nextBtn.button
+*/
+
+
 // Boutons prev et next
 const slideshowButtons = document.querySelectorAll(".slideshowWrapper .button");
 
@@ -30,6 +44,12 @@ slideshow.addEventListener("mousedown", function(pEvent){
 
 	dragStartX = pEvent.pageX;
 });
+
+//slideshow.addEventListener("mousemove", function(){
+//	console.log("=== drag mousemove START ===");
+
+//	console.log("=== drag mousemove END ===");
+//});
 
 // Arret du drag
 slideshow.addEventListener("mouseup", function(pEvent){
