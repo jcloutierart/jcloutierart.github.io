@@ -228,6 +228,24 @@ footer { padding-top:var(--spacing20); padding-bottom:var(--spacing20); }
 			.slideshowControls .prevBtn:hover, .slideshowControls .prevBtn:focus, .slideshowControls .nextBtn:hover, .slideshowControls .nextBtn:focus { opacity:1; }
 
 
+/* COMICS PAGE  */
+.comics {}
+.comics .tilesWrapper { display:flex; flex-wrap:wrap; justify-content:center; }
+.comics .tiles { overflow:hidden; width:250px; height:350px; position:relative; margin:var(--spacing20); -webkit-border-radius:calc(var(--radius) * 3); -moz-border-radius:calc(var(--radius) * 3); border-radius:calc(var(--radius) * 3); -webkit-transition:var(--transition500msEase); -moz-transition:var(--transition500msEase); transition:var(--transition500msEase); }
+	.comics .tiles img { width:100%; height:100%; object-fit:cover; position:absolute; display:block; }
+	.comics .tiles .description { display:none; padding:var(--spacing20); background-color:var(--neutralColor2-75); position:absolute; top:0; left:0; height:100%; font-size:0.89em; /* 16px */ text-align:left; color:var(--white); -webkit-transition:var(--transition500msEase); -moz-transition:var(--transition500msEase); transition:var(--transition500msEase); }
+		.comics .tiles .description .title { font-weight:bold; margin:0; margin-bottom:1em; }
+		.comics .tiles .description .summary { max-height:70%; overflow:hidden; -webkit-mask-image:linear-gradient(black 87%, transparent); mask-image:linear-gradient(black 87%, transparent); }
+			.comics .tiles .description .summary p:first-child { margin-top:0; }
+		.comics .tiles .description a.button, .comics .tiles .description a.button:active, .comics .tiles .description a.button:visited { background-color:var(--white); color:var(--neutralColor2); text-align:center; font-weight:bold; text-decoration:none; display:block; width:100%; padding:var(--spacing10) 0; }
+			.comics .tiles .description a.button:hover, .comics .tiles .description a.button:focus { background-color:var(--secondColor1); color:var(--white); }
+	.comics .tiles:hover .description, .comics .tiles:focus .description { display:block; }
+
+.singleComic {}
+	.singleComic .comicPage { margin:var(--spacing20); }
+		.singleComic .comicPage img { margin:0 auto; display:block; max-width:100%; width:auto; height:auto; max-height:85vh; }
+
+
 /* ABOUT PAGE */
 #about {}
 #about .photo { max-width:200px; min-height:250px; overflow:hidden; background-color:var(--neutalColor2); -webkit-border-radius:calc(var(--radius) * 3); -moz-border-radius:calc(var(--radius) * 3); border-radius:calc(var(--radius) * 3); }
