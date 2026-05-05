@@ -1,0 +1,68 @@
+/* VARIABLES */
+:root {
+	/* Colors - principale */
+	--primaryColor-500: rgba(45, 12, 116, 1);
+	--primaryColor-300: rgba(118, 73, 186, 1);
+	--primaryColor-800: rgba(15, 9, 95, 1);
+
+	/* Colors - secondaire 1 */
+	--second1Color-500: rgba(234, 238, 68, 1);
+	--second1Color-200: rgba(244, 246, 150, 1);
+	--second1Color-300: rgba(248, 249, 191, 1);
+	--second1Color-600: rgba(206, 210, 54, 1);
+	--second1Color-700: rgba(178, 182, 39, 1);
+
+	/* Colors - secondaire 2 */
+	--second2Color-500: rgba(93, 30, 224, 1);
+	--second2Color-200: rgba(153, 113, 237, 1);
+	--second2Color-300: rgba(183, 154, 244, 1);
+	--second2Color-700: rgba(73, 23, 176, 1);
+	--second2Color-900: rgba(54, 17, 129, 1);
+
+	/* Colors - dark (neutre 1) */
+	--darkColor-500: rgba(29, 11, 65, 1);
+	--darkColor-200: rgba(113, 98, 143, 1);
+	--darkColor-300: rgba(156, 142, 183, 1);
+	--darkColor-900: rgba(0, 0, 0, 1);	
+
+	/* Colors - grey (neutre 2) */
+	--greyColor-500: rgba(213, 207, 226, 1);
+	--greyColor-100: rgba(228, 225, 237, 1);
+	--greyColor-300: rgba(244, 243, 248, 1);
+	--greyColor-700: rgba(188, 180, 205, 1);
+	--greyColor-900: rgba(163, 153, 184, 1);	
+
+	/* Colors - light (neutre 3) */
+	--lightColor-500: rgba(252, 252, 252, 1);
+
+
+	/* Transition */
+	--transitionDuration: 0.5s;
+	--transitionTiming: ease-out;
+
+
+	/* Width, Padding and Margin */ 
+	--bodyMaxWidth: 1440px;
+
+	--spacing-25: 25px;
+	--spacing-50: 50px;
+	--spacing-100: 100px;	
+	--spacing-10: 10px; /* == Mobile */
+
+
+	/* Border radius  */
+	--radius: 0.9em;
+	--radiusRound:2em;
+
+
+	/* Font-size */
+	--fontSize: 18px; /* Font-size reguliere */
+	--fontSize-h1: 2.78em; /* 50px */
+	--fontSize-h1-mobile: 2.56em; /* 46px */
+	--fontSize-h2: 2em; /* 36px */
+	--fontSize-h3: 1.56em; /* 28px */
+	--fontSize-h4: 1.33em; /* 24px */
+	--fontSize-big: 1.22em; /* 22px */
+	--fontSize-small: 0.89em; /* 16px */
+	--fontSize-xsmall: 0.78em; /* 14px */
+}

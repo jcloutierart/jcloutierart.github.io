@@ -1,0 +1,22 @@
+/* MENU NAVIGATION CLASSIQUE */
+.menuNav { font-size:var(--fontSize-small); color:var(--darkColor-500); }
+.menuNav ul { 
+	list-style-type:none;
+	margin:15px 0;
+}
+.menuNav ul li {
+	display:inline;
+	margin:auto 25px;
+}
+
+.menuNav a, .menuNav a:active, .menuNav a:visited {
+	color:var(--darkColor-500);
+	text-decoration:none;
+	padding:15px 25px;
+	-webkit-border-radius:var(--radiusRound);
+	-moz-border-radius:var(--radiusRound);
+	border-radius:var(--radiusRound);
+}
+.menuNav a:hover, .menuNav a:focus {
+	background-color:var(--greyColor-500);
+}

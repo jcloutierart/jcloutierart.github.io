@@ -1,0 +1,41 @@
+/* SWITCH LANG */
+/* DEFAULT: EN */
+
+.changeLang { 
+	font-size:var(--fontSize-xsmall);
+	color:var(--primaryColor-300);
+	border:1px solid var(--primaryColor-300);
+	-webkit-border-radius:var(--radiusRound);
+	-moz-border-radius:var(--radiusRound);
+	border-radius:var(--radiusRound);
+	display:inline-block;
+}
+	.langChoice { list-style-type:none; display:inline; }
+	.langChoice li { display:inline-block; width:2.8em; text-align:center; }
+	.changeLang a, .changeLang a:active, .changeLang a:visited { 
+		color:var(--lightColor-500);		
+		text-decoration:none;
+		font-weight:bold;
+		background-color:var(--primaryColor-500); 
+		display:block; 
+		border:2px solid var(--lightColor-500);		
+	}
+		.changeLang li:nth-child(1) a, .changeLang li:nth-child(1) a:active, .changeLang li:nth-child(1) a:visited {
+			-webkit-border-top-left-radius:var(--radiusRound);
+			-moz-border-top-left-radius:var(--radiusRound);
+			border-top-left-radius:var(--radiusRound);
+			-webkit-border-bottom-left-radius:var(--radiusRound);
+			-moz-border-bottom-left-radius:var(--radiusRound);
+			border-bottom-left-radius:var(--radiusRound);
+		}
+		.changeLang li:nth-child(2) a, .changeLang li:nth-child(2) a:active, .changeLang li:nth-child(2) a:visited {
+			-webkit-border-top-right-radius:var(--radiusRound);
+			-moz-border-top-right-radius:var(--radiusRound);
+			border-top-right-radius:var(--radiusRound);
+			-webkit-border-bottom-right-radius:var(--radiusRound);
+			-moz-border-bottom-right-radius:var(--radiusRound);
+			border-bottom-right-radius:var(--radiusRound);
+		}
+	.changeLang a:hover, .changeLang a:focus {
+		background-color:var(--primaryColor-300);
+	}

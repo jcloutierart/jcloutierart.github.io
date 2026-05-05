@@ -1,0 +1,32 @@
+/* === Flexbox ===
+Basic style */
+
+.flexWrapper-row {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	gap:var(--spacing-25);
+}
+
+/* Two columns */
+.flexWrapper-row.two-cols .flex-cols {
+	flex-grow:1;
+	flex-basis:48%;
+}
+
+
+/* Three columns */
+.flexWrapper-row.three-cols .flex-cols {
+	flex-grow:1;
+	flex-basis:32%;
+}
+
+
+/* Alignements */
+.flexAlignItm-center { align-items:center; }
+.flexAlignCtn-center { text-align:center; }
+.flexAlignCtn-right { text-align:right; }
+
+
+/* Espacements */
+.flexWrapper-row.three-cols .flex-cols.flexBasis-48 { flex-basis:48%; }

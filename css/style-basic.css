@@ -1,0 +1,85 @@
+/* RESET */
+* { padding:0; margin:0; border:0; outline:0; font-size:100%; box-sizing:border-box; }
+
+
+/* BASIC STYLE */
+html { scroll-behavior:smooth; }
+body { background-color:var(--lightColor-500); font-family:Verdana, Arial, sans-serif; font-size:var(--fontSize); color:var(--darkColor-500); }
+
+/* == Largeur du contenant */
+.contentWrapper { width:100%; max-width:var(--bodyMaxWidth); margin:0 auto; }
+
+
+/* == Titres et textes */
+h1, h2, h3, h4, h5, h6 {
+	font-family:Georgia, "Times New Roman", serif;
+	font-weight:bold;
+	line-height:110%;
+	margin-top:var(--spacing-25);
+	margin-bottom:var(--spacing-25);
+}
+h1 { 
+	font-size:var(--fontSize-h1); 
+	color:var(--primaryColor-500); 
+	margin-bottom:var(--spacing-50);
+}
+h2 { 
+	font-size:var(--fontSize-h2); 
+	color:var(--primaryColor-500);
+	
+}
+
+ p { margin-top:var(--spacing-25); margin-bottom:var(--spacing-50); line-height:140%; }
+
+.txt-small { font-size:var(--fontSize-small); }
+
+
+/* == Images */
+/* img { image-rendering:smooth; } */
+.img-650 { width:100%; max-width:650px; }
+.img-1000 { width:100%; max-width:1000px; }
+
+
+/* == Listes */
+.listNoPuce { list-style-type:none; }
+.listItem-inline li { display:inline; }
+
+
+/* Espacements */
+.sectionPadding-tb { padding-top:var(--spacing-100); padding-bottom:var(--spacing-100); }
+.sectionPadding-lr { padding-left:var(--spacing-50); padding-right:var(--spacing-50); }
+
+.sectionMargin-tb { margin-top:var(--spacing-100);  margin-bottom:var(--spacing-100); }
+
+
+/* Alignement */
+.txt-center { text-align:center; }
+.txt-right { text-align:right; }
+
+
+/* == Sections contenu */
+
+/* ==== Fonds de couleur */
+.bgDark-500 { background-color:var(--darkColor-500); }
+
+.bgGrey-300 { background-color:var(--greyColor-300); }
+
+/* ====== Textes sur fond fonce */
+.bgDark-500 { color:var(--lightColor-500); }
+
+
+/* ==== Header */
+header { padding:var(--spacing-25); }
+
+
+/* ==== Footer */
+footer { font-size:var(--fontSize-xsmall); padding:var(--spacing-50) var(--spacing-25); }
+footer p { margin:0; }
+
+
+
+/* == Contact email with image for robot */
+.contactEmail {}
+	.contactEmail ul {}
+		.contactEmail ul li { display:inline-block; vertical-align:middle; }
+		.contactEmail ul li img { display:block; margin:0 var(--spacing-10); }

@@ -222,7 +222,7 @@ footer { padding-top:var(--spacing20); padding-bottom:var(--spacing20); }
 	.slideshowControls { z-index:5; }
 		.slideshowControls img { display:block; }
 		.slideshowControls .button {}
-		.slideshowControls .prevBtn, .slideshowControls .nextBtn { position:absolute; top:45%; opacity:0.65; webkit-border-radius:var(--radius); -moz-border-radius:var(--radius); border-radius:var(--radius); box-shadow:0 4px 8px rgba(0, 0, 0, 0.25); -webkit-transition:var(--transition500msEase); -moz-transition:var(--transition500msEase); transition:var(--transition500msEase); }	
+		.slideshowControls .prevBtn, .slideshowControls .nextBtn { position:absolute; top:45%; opacity:0.65; -webkit-border-radius:var(--radius); -moz-border-radius:var(--radius); border-radius:var(--radius); box-shadow:0 4px 8px rgba(0, 0, 0, 0.25); -webkit-transition:var(--transition500msEase); -moz-transition:var(--transition500msEase); transition:var(--transition500msEase); }	
 		.slideshowControls .prevBtn { left:-25px; }			
 		.slideshowControls .nextBtn { right:-25px; }
 			.slideshowControls .prevBtn:hover, .slideshowControls .prevBtn:focus, .slideshowControls .nextBtn:hover, .slideshowControls .nextBtn:focus { opacity:1; }
