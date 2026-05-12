@@ -1,0 +1,38 @@
+/* SLIDE SHOW */
+.slideshowWrapper {
+	width:100%;
+	max-width:650px;
+	position:relative; /* Pour positionner les controles */
+	margin:0 auto;
+}
+
+.slideshowWidth-1000 { max-width:1000px; }
+
+
+/* Controle change image */
+.slideshowControls .prevBtn, .slideshowControls .nextBtn {
+	position:absolute;
+	top:50%;
+	opacity:0.70;
+	cursor:pointer;
+}	
+.slideshowControls .prevBtn { left:var(--spacing-10); }
+.slideshowControls .nextBtn { right:var(--spacing-10); }
+.slideshowControls .prevBtn:hover, .slideshowControls .prevBtn:focus, .slideshowControls .nextBtn:hover, .slideshowControls .nextBtn:focus { opacity:1; }
+
+
+/* Slideshow gallery images */
+.slideshow {
+	gap:0;
+	overflow:hidden;
+	scroll-behavior:smooth;
+}
+
+.slideimage { 
+	width:100%;
+	min-width:100%;
+	
+}
+.slideimage img { 
+	max-width:100%;
+}
