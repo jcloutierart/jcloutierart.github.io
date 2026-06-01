@@ -6,139 +6,152 @@
 	<meta name="description" content="" />
 	<meta name="author" content="J.Cloutier" />
 	<title>J.Cloutier - Le guerrier des ombres</title>
-	<link href="../../../css/mainstyle.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="text/javascript" src="../../../js/mainscript.js" defer></script>	
+	<link href="../../../css/css-variables.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../../../css/style-basic.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../../../css/style-flexbox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../../../css/style-menu-navigation-classique.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../../../css/style-switch-langue.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../../../css/style-slideshow.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="../../../js/slideshow-2.js" defer></script>
 </head>
 
 <body>	
-	<!-- Mobile menu -->
-	<div id="mainMenuNav" class="bgNeutralColor2 hide">
-		<div class="mainWrapper">
-			<div class="closeBtn button jsMenuBtn">
-				<img src="../../../images/ico_close_white.png" alt="Fermer" />
+	<header>
+		<div class="contentWrapper flexWrapper-row three-cols flexAlignItm-center">
+			<div class="flex-cols">
+				<a href="../../index.html"><img src="../../../images/img-system/logo-jcloutier-standard.png" alt="J.Cloutier" /></a>		
 			</div>
-			<nav>
-				<ul>
-					<li><a href="../../index.html">Accueil</a></li>
-					<li><a href="../../index.html#portfolio">Portfolio</a></li>
-					<li><a href="../../graphisme.html">Graphisme</a></li>
-					<li><a href="../../bandes-dessinees.html">Bandes dessinées</a></li>
-					<li><a href="../../index.html#about">À propos de l'artiste</a></li>
-					<li><a href="../../index.html#contact">Contact</a></li>
-					<li><a href="../../../index.html">English</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>	
-
-	<header class="header bgWhite">
-		<div class="mainWrapper flexWrapper cols1-1">
-			<div class="logo">
-				<a href="../../index.html"><img src="../../../images/logo-jcloutier-fr-blue.png" alt="J.Cloutier Artiste" /></a>
-			</div>
-			<div class="menuWrapper">
-				<div class="desktop menuContent">
-					<ul class="switchLang">
-						<li><a href="../../../index.html">EN</a></li><li class="isActive">FR</li>
-					</ul>	
-					<ul class="menuNav">
+			<div class="flex-cols flexBasis-48 flexAlignCtn-center">
+				<nav class="menuNav">
+					<ul>
+						<li><a href="../../index.html">Illustration</a></li>
 						<li><a href="../../graphisme.html">Graphisme</a></li>
-						<li><a href="../../bandes-dessinees.html">Bandes dessinées</a></li>
-					</ul>				
-				</div>
-				<div class="menuBtn button jsMenuBtn">
-					<img src="../../../images/ico_menu_neutralTint.png" alt="Menu" />
-				</div>		
-			</div>			
-		</div>
+						<li><a href="../../bandes-dessinees.html">BD</a></li>
+					</ul>
+				</nav>	
+			</div>
+			<div class="flex-cols flexAlignCtn-right">
+				<div class="changeLang">
+					<ul class="langChoice">
+						<li><a href="../../../comics/2021-shadow-warrior/2021-shadow-warrior.html">EN</a></li><li>FR</li>
+					</ul>		
+				</div>	
+			</div>
+		</div>		
 	</header>
 
-	<section id="" class="">
-		<div class="mainWrapper contentWrapper">
-			<h2>Le guerrier des ombres</h2>
-			<p>Une courte histoire d'un petit guerrier des ombres devant combattre la lumière.</p>
-			<p class="smallText">Cette publication est une coproduction de Josyanne Cloutier et l’ÉMI.</p>
-			<p class="smallText">Le guerrier des ombres&nbsp;: conception graphique, scénario et dessin &copy;&nbsp;2021 Josyanne Cloutier</p>
-			<p class="smallText">Cette publication a été produite comme exigence de fin d’études dans le cadre des programmes universitaires en bande dessinée de l’École multidisciplinaire de l’image (ÉMI) de l’Université du Québec en Outaouais (UQO).</p>
-		</div>
+	<section class="contentWrapper sectionMargin-tb sectionPadding-lr txt-center">
+		<h1>Le guerrier des ombres</h1>
+		<p>Une courte histoire d'un petit guerrier des ombres devant combattre la lumière.</p>		
 	</section>
 
-	<section id="comics" class="singleComic">
-		<div class="mainWrapper contentWrapper">
+	<section class="contentWrapper sectionPadding-tb sectionPadding-lr">
+		<div class="txt-center">
+			<div id="jsProjectSlides-1" class="slideshowWrapper slideshowWidth-650">
+				<div class="slideshowControls">
+					<div class="prevBtn jsSlideButton">
+						<img src="../../../images/img-system/ico_arrowLeft_neutralTint.png" alt="Previous" />
+					</div>
+					<div class="nextBtn jsSlideButton">
+						<img src="../../../images/img-system/ico_arrowRight_neutralTint.png" alt="Next" />
+					</div>
+				</div>
 
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_1.jpg" alt="Le guerrier des ombres par Josyanne Cloutier" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_2.jpg" alt="Le guerrier des ombres, page 1" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_3.jpg" alt="Le guerrier des ombres, page 2" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_4.jpg" alt="Le guerrier des ombres, page 3" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_5.jpg" alt="Le guerrier des ombres, page 4" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_6.jpg" alt="Le guerrier des ombres, page 5" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_7.jpg" alt="Le guerrier des ombres, page 6" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_8.jpg" alt="Le guerrier des ombres, page 7" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_9.jpg" alt="Le guerrier des ombres, page 8" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_10.jpg" alt="Le guerrier des ombres, page 9" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_11.jpg" alt="Le guerrier des ombres, page 10" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_12.jpg" alt="Le guerrier des ombres, page 11" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_13.jpg" alt="Le guerrier des ombres, page 12" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_14.jpg" alt="Le guerrier des ombres, page 13" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_15.jpg" alt="Le guerrier des ombres, page 14" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_16.jpg" alt="Le guerrier des ombres, page 15" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_17.jpg" alt="Le guerrier des ombres, page 16" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_18.jpg" alt="Le guerrier des ombres, page 17" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_19.jpg" alt="Le guerrier des ombres, page 18" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_20.jpg" alt="Le guerrier des ombres, page 19" />
-			</div>
-			<div class="comicPage">
-				<img src="images/2021-GuerrierOmbres-Lres_21.jpg" alt="Le guerrier des ombres, page 20" />
-			</div>
-					
+				<div class="slideshow flexWrapper-row flexAlignItm-center flexAlignCtn-center">				
+
+					<div class="slideimage jsIsActive">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_1.jpg" alt="Le guerrier des ombres par Josyanne Cloutier" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_2.jpg" alt="Le guerrier des ombres, Page 1" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_3.jpg" alt="Le guerrier des ombres, Page 2" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_4.jpg" alt="Le guerrier des ombres, Page 3" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_5.jpg" alt="Le guerrier des ombres, Page 4" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_6.jpg" alt="Le guerrier des ombres, Page 5" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_7.jpg" alt="Le guerrier des ombres, Page 6" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_8.jpg" alt="Le guerrier des ombres, Page 7" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_9.jpg" alt="Le guerrier des ombres, Page 8" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_10.jpg" alt="Le guerrier des ombres, Page 9" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_11.jpg" alt="Le guerrier des ombres, Page 10" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_12.jpg" alt="Le guerrier des ombres, Page 11" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_13.jpg" alt="Le guerrier des ombres, Page 12" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_14.jpg" alt="Le guerrier des ombres, Page 13" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_15.jpg" alt="Le guerrier des ombres, Page 14" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_16.jpg" alt="Le guerrier des ombres, Page 15" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_17.jpg" alt="Le guerrier des ombres, Page 16" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_18.jpg" alt="Le guerrier des ombres, Page 17" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_19.jpg" alt="Le guerrier des ombres, Page 18" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_20.jpg" alt="Le guerrier des ombres, Page 19" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="images/2021-GuerrierOmbres-Lres_21.jpg" alt="Le guerrier des ombres, Page 20" />
+					</div>
+			
+				</div>
+			</div>		
 		</div>
+
+		<div class="txt-center sectionMargin-tb">
+			<p class="txt-small">Cette publication est une coproduction de Josyanne Cloutier et l’ÉMI.</p>
+			<p class="txt-small">Le guerrier des ombres&nbsp;: conception graphique, scénario et dessin &copy;&nbsp;2021 Josyanne Cloutier</p>
+			<p class="txt-small">Cette publication a été produite comme exigence de fin d’études dans le cadre des programmes universitaires en bande dessinée de l’École multidisciplinaire de l’image (ÉMI) de l’Université du Québec en Outaouais (UQO).</p>		
+		</div>		
 	</section>
 
-	<footer class="bgNeutralColor2 footer">
-		<div class="mainWrapper flexWrapper cols1-1">
-			<div>
-				<p>&copy; 2026. J.Cloutier. Tous droits réservés.</p>
+	<footer class="bgDark-500">
+		<div class="contentWrapper flexWrapper-row three-cols">
+			<div class="flex-cols">
+				<div class="contactEmail">
+					<ul class="listNoPuce listItem-inline">
+						<li>contact</li>
+						<li><img src="../../../images/img-system/ico_atemail_white.png" alt=" at " /></li>
+						<li>josyannecloutier.com</li>
+					</ul>					
+				</div>		
 			</div>
-		</div>
+			<div class="flex-cols flexAlignCtn-center">	
+			</div>
+			<div class="flex-cols flexAlignCtn-right">
+				<p>&copy; 2026. J.Cloutier. Tous droits réservés.</p>	
+			</div>
+		</div>		
 	</footer>
+
 </body>
 </html>

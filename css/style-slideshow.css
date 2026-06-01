@@ -7,13 +7,14 @@
 }
 
 .slideshowWidth-1000 { max-width:1000px; }
+.slideshowWidth-360 { max-width:360px; }
 
 
 /* Controle change image */
 .slideshowControls .prevBtn, .slideshowControls .nextBtn {
 	position:absolute;
 	top:50%;
-	opacity:0.70;
+	opacity:0.65;
 	cursor:pointer;
 }	
 .slideshowControls .prevBtn { left:var(--spacing-10); }
@@ -25,7 +26,7 @@
 .slideshow {
 	gap:0;
 	overflow:hidden;
-	scroll-behavior:smooth;
+	scroll-behavior:smooth; 
 }
 
 .slideimage { 
@@ -33,6 +34,7 @@
 	min-width:100%;
 	
 }
+
 .slideimage img { 
 	max-width:100%;
 }

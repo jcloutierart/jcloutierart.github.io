@@ -6,82 +6,164 @@
 	<meta name="description" content="" />
 	<meta name="author" content="J.Cloutier" />
 	<title>J.Cloutier - Bandes dessinées</title>
-	<link href="../css/mainstyle.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="text/javascript" src="../js/mainscript.js" defer></script>
-	<script type="text/javascript" src="../js/slideshow.js" defer></script>	
+	<link href="../css/css-variables.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-basic.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-flexbox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-menu-navigation-classique.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-switch-langue.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-slideshow.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="../js/slideshow-2.js" defer></script>	
 </head>
 
 <body>	
-	<!-- Mobile menu -->
-	<div id="mainMenuNav" class="bgNeutralColor2 hide">
-		<div class="mainWrapper">
-			<div class="closeBtn button jsMenuBtn">
-				<img src="../images/ico_close_white.png" alt="Fermer" />
+	<header>
+		<div class="contentWrapper flexWrapper-row three-cols flexAlignItm-center">
+			<div class="flex-cols">
+				<a href="index.html"><img src="../images/img-system/logo-jcloutier-standard.png" alt="J.Cloutier" /></a>		
 			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="index.html#portfolio">Portfolio</a></li>
-					<li><a href="graphisme.html">Graphisme</a></li>
-					<li><a href="bandes-dessinees.html">Bandes dessinées</a></li>
-					<li><a href="index.html#about">À propos de l'artiste</a></li>
-					<li><a href="index.html#contact">Contact</a></li>
-					<li><a href="../index.html">English</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>	
-
-	<header class="header bgWhite">
-		<div class="mainWrapper flexWrapper cols1-1">
-			<div class="logo">
-				<a href="index.html"><img src="../images/logo-jcloutier-fr-blue.png" alt="J.Cloutier Artiste" /></a>
-			</div>
-			<div class="menuWrapper">
-				<div class="desktop menuContent">
-					<ul class="switchLang">
-						<li><a href="../index.html">EN</a></li><li class="isActive">FR</li>
-					</ul>	
-					<ul class="menuNav">
+			<div class="flex-cols flexBasis-48 flexAlignCtn-center">
+				<nav class="menuNav">
+					<ul>
+						<li><a href="index.html">Illustration</a></li>
 						<li><a href="graphisme.html">Graphisme</a></li>
-						<li><a href="bandes-dessinees.html">Bandes dessinées</a></li>
-					</ul>				
-				</div>
-				<div class="menuBtn button jsMenuBtn">
-					<img src="../images/ico_menu_neutralTint.png" alt="Menu" />
-				</div>		
-			</div>			
-		</div>
+						<li><a href="bandes-dessinees.html">BD</a></li>
+					</ul>
+				</nav>	
+			</div>
+			<div class="flex-cols flexAlignCtn-right">
+				<div class="changeLang">
+					<ul class="langChoice">
+						<li><a href="../comics.html">EN</a></li><li>FR</li>
+					</ul>		
+				</div>	
+			</div>
+		</div>		
 	</header>
 
-	<section id="comics" class="comics">
-		<div class="mainWrapper contentWrapper">
-			<h2 class="hide">Bandes dessinées</h2>
+	<section class="contentWrapper sectionMargin-tb sectionPadding-lr txt-center">
+		<h1>Bandes dessinées</h1>		
+	</section>
 
-			<div class="tilesWrapper">
-
-				<div class="tiles">
-					<img src="bandes-dessinees/2021-guerrier-ombres/images/2021-GuerrierOmbres-Lres_1.jpg" alt="" />
-					<div class="description">
-						<p class="title">Le guerrier des ombres</p>
-						<div class="summary">
-							<p>Une courte histoire d'un petit guerrier des ombres devant combattre la lumière.</p>
-						</div>
-						<p><a class="button" href="bandes-dessinees/2021-guerrier-ombres/2021-guerrier-ombres.html">Lire</a></p>
+	<section class="contentWrapper sectionPadding-tb sectionPadding-lr bgGrey-300 flexWrapper-row two-cols">
+		<div class="flex-cols">
+			<div id="jsProjectSlides-1" class="slideshowWrapper slideshowWidth-650">
+				<div class="slideshowControls">
+					<div class="prevBtn jsSlideButton">
+						<img src="../images/img-system/ico_arrowLeft_neutralTint.png" alt="Previous" />
+					</div>
+					<div class="nextBtn jsSlideButton">
+						<img src="../images/img-system/ico_arrowRight_neutralTint.png" alt="Next" />
 					</div>
 				</div>
 
-			</div>
-					
+				<div class="slideshow flexWrapper-row flexAlignItm-center flexAlignCtn-center">				
+
+					<div class="slideimage jsIsActive">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_001.jpg" alt="Izzy : Cycle de l'ombre, page 1" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_002.jpg" alt="Izzy : Cycle de l'ombre, page 2" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_003.jpg" alt="Izzy : Cycle de l'ombre, page 3" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_004.jpg" alt="Izzy : Cycle de l'ombre, page 4" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_005.jpg" alt="Izzy : Cycle de l'ombre, page 5" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_006.jpg" alt="Izzy : Cycle de l'ombre, page 6" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_007.jpg" alt="Izzy : Cycle de l'ombre, page 7" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-comics/2026-BDIzzy-C1-LRes_008.jpg" alt="Izzy : Cycle de l'ombre, page 8" />
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="flex-cols">
+			<h2>Izzy : Cycle de l'ombre</h2>
+			<p>Pages conceptuelles pour une bande dessinée fantastique concernant une guerre éternelle entre l'ombre et la lumière.</p>
 		</div>
 	</section>
 
-	<footer class="bgNeutralColor2 footer">
-		<div class="mainWrapper flexWrapper cols1-1">
-			<div>
-				<p>&copy; 2026. J.Cloutier. Tous droits réservés.</p>
-			</div>
+	<section class="contentWrapper sectionPadding-tb sectionPadding-lr flexWrapper-row two-cols">
+		<div class="flex-cols">
+			<div id="jsProjectSlides-2" class="slideshowWrapper slideshowWidth-650">
+				<div class="slideshowControls">
+					<div class="prevBtn jsSlideButton">
+						<img src="../images/img-system/ico_arrowLeft_neutralTint.png" alt="Previous" />
+					</div>
+					<div class="nextBtn jsSlideButton">
+						<img src="../images/img-system/ico_arrowRight_neutralTint.png" alt="Next" />
+					</div>
+				</div>
+
+				<div class="slideshow flexWrapper-row flexAlignItm-center flexAlignCtn-center">				
+
+					<div class="slideimage jsIsActive">
+						<img class="img-650" src="bandes-dessinees/2021-guerrier-ombres/images/2021-GuerrierOmbres-Lres_2.jpg" alt="Le guerrier des ombres, Page 1" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="bandes-dessinees/2021-guerrier-ombres/images/2021-GuerrierOmbres-Lres_3.jpg" alt="Le guerrier des ombres, Page 2" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="bandes-dessinees/2021-guerrier-ombres/images/2021-GuerrierOmbres-Lres_4.jpg" alt="Le guerrier des ombres, Page 3" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="bandes-dessinees/2021-guerrier-ombres/images/2021-GuerrierOmbres-Lres_5.jpg" alt="Le guerrier des ombres, Page 4" />
+					</div>
+				</div>
+			</div>			
 		</div>
+		<div class="flex-cols">
+			<h2>Le guerrier des ombres</h2>
+			<p>Une courte histoire d'un petit guerrier des ombres devant combattre la lumière.</p>
+			<p><a class="button" href="bandes-dessinees/2021-guerrier-ombres/2021-guerrier-ombres.html">Lire la bande dessinée</a></p>
+		</div>
+	</section>
+
+	<section class="contentWrapper sectionPadding-tb sectionPadding-lr bgGrey-300">		
+		<div class="txt-center">
+			<h2>Voyage dans le temps</h2>
+			<p>Un concept de page horizontal pour une bande dessinée à propos d'un chat voyageant dans un futur passé.</p>
+		</div>
+		<div class="txt-center">
+			<img class="img-900" src="../images/img-comics/2020-Tommy-TimeTravel-LRes.jpg" alt="Voyage dans le temps, 2020" />		
+		</div>
+	</section>
+
+	<section class="contentWrapper sectionPadding-tb sectionPadding-lr flexWrapper-row two-cols">
+		<div class="flex-cols">
+			<img class="img-630" src="../images/img-comics/2020-TommyMarcheBD-LRes.jpg" alt="Au marché, 2020" />		
+		</div>
+		<div class="flex-cols">
+			<h2>Au marché</h2>
+			<p>Une page de bande dessinée muette au sujet d'un chat visitant un marché du futur.</p>
+		</div>
+	</section>
+	
+	<footer class="bgDark-500">
+		<div class="contentWrapper flexWrapper-row three-cols">
+			<div class="flex-cols">
+				<div class="contactEmail">
+					<ul class="listNoPuce listItem-inline">
+						<li>contact</li>
+						<li><img src="../images/img-system/ico_atemail_white.png" alt=" at " /></li>
+						<li>josyannecloutier.com</li>
+					</ul>					
+				</div>		
+			</div>
+			<div class="flex-cols flexAlignCtn-center">	
+			</div>
+			<div class="flex-cols flexAlignCtn-right">
+				<p>&copy; 2026. J.Cloutier. Tous droits réservés.</p>	
+			</div>
+		</div>		
 	</footer>
 </body>
 </html>

@@ -25,19 +25,22 @@ h1 {
 }
 h2 { 
 	font-size:var(--fontSize-h2); 
-	color:var(--primaryColor-500);
-	
+	color:var(--primaryColor-500); 
 }
 
  p { margin-top:var(--spacing-25); margin-bottom:var(--spacing-50); line-height:140%; }
+
 
 .txt-small { font-size:var(--fontSize-small); }
 
 
 /* == Images */
-/* img { image-rendering:smooth; } */
+.img-360 { width:100%; max-width:360px; }
 .img-650 { width:100%; max-width:650px; }
 .img-1000 { width:100%; max-width:1000px; }
+/* Pour les images du portfolio temporaire */
+.img-900 { width:100%; max-width:900px; }
+.img-630 { width:100%; max-width:630px; }
 
 
 /* == Listes */
@@ -58,6 +61,7 @@ h2 {
 
 
 /* == Sections contenu */
+
 
 /* ==== Fonds de couleur */
 .bgDark-500 { background-color:var(--darkColor-500); }
@@ -80,6 +84,7 @@ footer p { margin:0; }
 
 /* == Contact email with image for robot */
 .contactEmail {}
-	.contactEmail ul {}
+	.contactEmail ul {  }
 		.contactEmail ul li { display:inline-block; vertical-align:middle; }
 		.contactEmail ul li img { display:block; margin:0 var(--spacing-10); }
+

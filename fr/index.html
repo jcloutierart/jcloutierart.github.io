@@ -6,238 +6,111 @@
 	<meta name="description" content="" />
 	<meta name="author" content="J.Cloutier" />
 	<title>J.Cloutier - Portfolio</title>
-	<link href="../css/mainstyle.css" rel="stylesheet" type="text/css" media="all" />
-	<script type="text/javascript" src="../js/mainscript.js" defer></script>
-	<script type="text/javascript" src="../js/slideshow.js" defer></script>	
+	<link href="../css/css-variables.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-basic.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-flexbox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-menu-navigation-classique.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-switch-langue.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../css/style-slideshow.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="../js/slideshow-2.js" defer></script>
 </head>
 
 <body>	
-	<!-- Mobile menu -->
-	<div id="mainMenuNav" class="bgNeutralColor2 hide">
-		<div class="mainWrapper">
-			<div class="closeBtn button jsMenuBtn">
-				<img src="../images/ico_close_white.png" alt="Fermer" />
+	<header>
+		<div class="contentWrapper flexWrapper-row three-cols flexAlignItm-center">
+			<div class="flex-cols">
+				<a href="index.html"><img src="../images/img-system/logo-jcloutier-standard.png" alt="J.Cloutier" /></a>		
 			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="index.html#portfolio">Portfolio</a></li>
-					<li><a href="graphisme.html">Graphisme</a></li>
-					<li><a href="bandes-dessinees.html">Bandes dessinées</a></li>
-					<li><a href="index.html#about">À propos de l'artiste</a></li>
-					<li><a href="index.html#contact">Contact</a></li>
-					<li><a href="../index.html">English</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>	
-
-	<header class="header bgWhite">
-		<div class="mainWrapper flexWrapper cols1-1">
-			<div class="logo">
-				<a href="index.html"><img src="../images/logo-jcloutier-fr-blue.png" alt="J.Cloutier Artiste" /></a>
-			</div>
-			<div class="menuWrapper">
-				<div class="desktop menuContent">
-					<ul class="switchLang">
-						<li><a href="../index.html">EN</a></li><li class="isActive">FR</li>
-					</ul>	
-					<ul class="menuNav">
+			<div class="flex-cols flexBasis-48 flexAlignCtn-center">
+				<nav class="menuNav">
+					<ul>
+						<li><a href="index.html">Illustration</a></li>
 						<li><a href="graphisme.html">Graphisme</a></li>
-						<li><a href="bandes-dessinees.html">Bandes dessinées</a></li>
-					</ul>				
-				</div>
-				<div class="menuBtn button jsMenuBtn">
-					<img src="../images/ico_menu_neutralTint.png" alt="Menu" />
-				</div>		
-			</div>			
-		</div>
+						<li><a href="bandes-dessinees.html">BD</a></li>
+					</ul>
+				</nav>	
+			</div>
+			<div class="flex-cols flexAlignCtn-right">
+				<div class="changeLang">
+					<ul class="langChoice">
+						<li><a href="../index.html">EN</a></li><li>FR</li>
+					</ul>		
+				</div>	
+			</div>
+		</div>		
 	</header>
 
-	<section id="portfolio" class="portfolio">
-		<div class="mainWrapper contentWrapper">
-			<h2 class="hide">Portfolio</h2>
+	<section class="contentWrapper sectionMargin-tb sectionPadding-lr txt-center">
+		<h1>Illustration</h1>		
+	</section>
 
-			<div class="slideshowWrapper">
-				<div class="slideshow">
-					<div class="artworkWrapper">
-
-						<div class="artwork isActive">
-							<img src="../images/2024-LaBoite-LRes.jpg" alt="La boîte, 2024" draggable="false" />
-							<div class="description">
-								<p class="title">La boîte</p>
-								<p>2024, encre sur papier aquarelle, 20.32cm x 15.24cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/20250212-Izzy-ConceptPage-LRes.jpg" alt="Izzy, art conceptuel, 2025" draggable="false" />
-							<div class="description">
-								<p class="title">Izzy, art conceptuel</p>
-								<p>2025, art numérique</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/20250121-ConceptArt-Izzy-LRes.jpg" alt="Izzy, concept, 2025" draggable="false" />
-							<div class="description">
-								<p class="title">Izzy, concept</p>
-								<p>2025, encre et marqueurs sur papier marqueur, 27.8cm x 22.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2020-TommyMarche-LRes.jpg" alt="Au marché, 2020" draggable="false" />
-							<div class="description">
-								<p class="title">Au marché</p>
-								<p>2020, encre sur papier bristol, 35.6cm x 27.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2022-Champignons-LRes.jpg" alt="Champignons, 2022" draggable="false" />
-							<div class="description">
-								<p class="title">Champignons</p>
-								<p>2022, encre sur papier bristol, 22.8cm x 15.3cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2022-EvilBouc-LRes.jpg" alt="Evil Bouc, 2022" draggable="false" />
-							<div class="description">
-								<p class="title">Evil Bouc</p>
-								<p>2022, encre, gouache et aquarelle sur papier aquarelle, 30.4cm x 22.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2018-DragonsLouMia-LRes.jpg" alt="Dragons, 2018" draggable="false" />
-							<div class="description">
-								<p class="title">Dragons</p>
-								<p>2018, encre sur papier bristol, 30.4cm x 22.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2020-NidOiseau-LRes.jpg" alt="Oiseau dans son nid, 2020" draggable="false" />
-							<div class="description">
-								<p class="title">Oiseau dans son nid</p>
-								<p>2020, encre et marqueurs sur papier bristol, 13.7cm x 10cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2022-ArbreChat-LRes.jpg" alt="Arbre à chats, 2022" draggable="false" />
-							<div class="description">
-								<p class="title">Arbre à chats</p>
-								<p>2022, encre sur papier bristol, 22.8cm x 15.3cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2024-LumiereFeline-LRes.jpg" alt="Lumière féline, 2024" draggable="false" />
-							<div class="description">
-								<p class="title">Lumière féline</p>
-								<p>2024, encre sur papier aquarelle, 17.78cm x 17.78cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2025-ConceptPlancheIzzy-LRes.jpg" alt="Concept pour une page de bande dessinée, 2025" draggable="false" />
-							<div class="description">
-								<p class="title">Concept pour une page de bande dessinée</p>
-								<p>2025, graphite sur papier, 27.9cm x 20.4cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2021-GuerrierOmbres-p1-LRes.jpg" alt="Le guerrier des ombres, page 1, 2021" draggable="false" />
-							<div class="description">
-								<p class="title">Le guerrier des ombres, page 1</p>
-								<p>2021, encre sur papier bristol, 35.6cm x 27.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2021-GuerrierOmbres-p3-LRes.jpg" alt="Le guerrier des ombres, page 3, 2021" draggable="false" />
-							<div class="description">
-								<p class="title">Le guerrier des ombres, page 3</p>
-								<p>2021, encre sur papier bristol, 35.6cm x 27.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2019-SC-Invitation-p2-LRes.jpg" alt="Invitation, page 2, 2019" draggable="false" />
-							<div class="description">
-								<p class="title">Invitation, page 2</p>
-								<p>2019, encre sur papier bristol, 35.6cm x 27.8cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2020-Tommy-TimeTravel-LRes.jpg" alt="Voyage dans le temps, 2020" draggable="false" />
-							<div class="description">
-								<p class="title">Voyage dans le temps</p>
-								<p>2020, encre sur papier bristol, 27.8cm x 35.6cm</p>
-							</div>
-						</div>
-
-						<div class="artwork">
-							<img src="../images/2020-TommyMarcheBD-LRes.jpg" alt="Au marché, 2020" draggable="false" />
-							<div class="description">
-								<p class="title">Au marché</p>
-								<p>2020, encre sur papier bristol, 35.6cm x 27.8cm</p>
-							</div>
-						</div>				
-
-					</div>					
-				</div>
+	<section class="contentWrapper sectionPadding-tb sectionPadding-lr">
+		<div class="txt-center">
+			<div id="jsProjectSlides-1" class="slideshowWrapper slideshowWidth-650">
 				<div class="slideshowControls">
-					<div class="prevBtn button">
-						<img src="../images/ico_arrowLeft_neutralTint.png" alt="Précédent" />
+					<div class="prevBtn jsSlideButton">
+						<img src="../images/img-system/ico_arrowLeft_neutralTint.png" alt="Previous" />
 					</div>
-					<div class="nextBtn button">
-						<img src="../images/ico_arrowRight_neutralTint.png" alt="Suivant" />
+					<div class="nextBtn jsSlideButton">
+						<img src="../images/img-system/ico_arrowRight_neutralTint.png" alt="Next" />
 					</div>
-				</div>			
-			</div>
-					
-		</div>
-	</section>
-
-	<section class="bgMainColor" id="about">
-		<div class="mainWrapper contentWrapper flexWrapper cols1-2">
-			<div class="description">
-				<h2>À propos de l'artiste</h2>
-				<p>Intéressée par la bande dessinée et l'animation depuis son enfance, Josyanne Cloutier est d'abord diplômée en arts plastiques, puis en techniques d'intégration multimédia où elle y trouve un intérêt pour le Web. En 2018, elle poursuit des études en bande dessinée, afin d'explorer le côté narratif de l'art et de réaliser un vieux rêve, celui de devenir auteure de bande dessinée. Après 14&nbsp;ans en tant qu'intégratrice Web dans le domaine du marketing relationnel, elle décide de tenter sa chance dans un métier créatif en offrant ses services en illustration et écriture narratives.</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="bgSecondColor1 bgImgSecondColor1" id="contact">
-		<div class="mainWrapper contentWrapper flexWrapper cols1-1">
-			<div>
-				<h2>Contact</h2>
-			</div>
-			<div class="contactInfoWrapper flexWrapper cols1-1">
-				<div class="contactEmail">
-					<ul>
-						<li>contact</li>
-						<li><img src="../images/ico_atemail_white.png" alt=" at " /></li>
-						<li>josyannecloutier.com</li>
-					</ul>
 				</div>
-				<div class="contactOther"></div>
-			</div>
-		</div>
-	</section>
 
-	<footer class="bgNeutralColor2 footer">
-		<div class="mainWrapper flexWrapper cols1-1">
-			<div>
-				<p>&copy; 2026. J.Cloutier. Tous droits réservés.</p>
+				<div class="slideshow flexWrapper-row flexAlignItm-center flexAlignCtn-center">				
+
+					<div class="slideimage jsIsActive">
+						<img class="img-650" src="../images/img-illustration/2024-LaBoite-LRes.jpg" alt="La boîte, 2024" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/20250212-Izzy-ConceptPage-LRes.jpg" alt="Izzy, art conceptuel, 2025" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/20250121-ConceptArt-Izzy-LRes.jpg" alt="Izzy, concept, 2025" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2020-TommyMarche-LRes.jpg" alt="Au marché, 2020" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2022-Champignons-LRes.jpg" alt="Champignons, 2022" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2022-EvilBouc-LRes.jpg" alt="Evil Bouc, 2022" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2018-DragonsLouMia-LRes.jpg" alt="Dragons, 2018" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2020-NidOiseau-LRes.jpg" alt="Oiseau dans son nid, 2020" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2022-ArbreChat-LRes.jpg" alt="Arbre à chats, 2022" />
+					</div>
+					<div class="slideimage">
+						<img class="img-650" src="../images/img-illustration/2024-LumiereFeline-LRes.jpg" alt="Lumière féline, 2024" />
+					</div>
+
+				</div>
+			</div>		
+		</div>		
+	</section>
+	
+	<footer class="bgDark-500">
+		<div class="contentWrapper flexWrapper-row three-cols">
+			<div class="flex-cols">
+				<div class="contactEmail">
+					<ul class="listNoPuce listItem-inline">
+						<li>contact</li>
+						<li><img src="../images/img-system/ico_atemail_white.png" alt=" at " /></li>
+						<li>josyannecloutier.com</li>
+					</ul>					
+				</div>		
 			</div>
-		</div>
+			<div class="flex-cols flexAlignCtn-center">	
+			</div>
+			<div class="flex-cols flexAlignCtn-right">
+				<p>&copy; 2026. J.Cloutier. Tous droits réservés.</p>	
+			</div>
+		</div>		
 	</footer>
 </body>
 </html>
